@@ -1461,6 +1461,29 @@ p.uppercase, .p.uppercase,
 .fix-12-12 {
   max-width: 1114px !important;
 }
+.vertical-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 177.77%; /* 100% / (9 / 16) = 177.77% */
+}
+
+.vertical-video .embedVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(90deg);
+  transform-origin: center center;
+}
+
+.vertical-video .embedVideo iframe {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+  transform-origin: center center;
+}
+
 
 [class*='fix-'] {
   width: 100% !important;
