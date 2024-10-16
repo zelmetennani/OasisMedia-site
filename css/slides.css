@@ -1465,6 +1465,8 @@ p.uppercase, .p.uppercase,
   position: relative;
   width: 100%;
   padding-bottom: 177.77%; /* 100% / (9 / 16) = 177.77% */
+  transform: rotate(90deg);
+  transform-origin: center center;
 }
 
 .vertical-video .embedVideo {
