@@ -2821,6 +2821,7 @@ html.mobile .showForMobileInline {
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
 }
+
 .popup:not([class*="fade"]) {
   background: rgba(17, 17, 17, 0.9);
 }
@@ -2935,6 +2936,19 @@ html.mobile .showForMobileInline {
 .embedVideo.size-square {
   padding-bottom: 100%;
 }
+.popup .content .container .wrap .fix-10-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.popup .content .container .wrap .fix-10-12 div {
+  text-align: center;
+}
+
+
+
 
 /***
  *      ______                       _____                            
@@ -12352,3 +12366,5 @@ p.remind-43 {
 }
 
 /*# sourceMappingURL=slides.css.map */
+
+
